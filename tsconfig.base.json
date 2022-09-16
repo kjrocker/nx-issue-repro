@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-test/base-lib": ["packages/base-lib/src/index.ts"],
+      "@nx-test/feature-lib": ["packages/feature-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
